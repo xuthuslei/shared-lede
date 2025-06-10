@@ -23,7 +23,7 @@ mv ./$CODE_DIR/* ./
 # download app codes
 SUPPLY_DIR=_supply_packages
 echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git" >> "feeds.conf.default"
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
