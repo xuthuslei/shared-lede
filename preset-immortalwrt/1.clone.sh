@@ -32,8 +32,3 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git && mv open
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git && mv openwrt-passwall2/luci-app-passwall2 ./ && rm -rf openwrt-passwall2
 git clone --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki.git && mv OpenWrt-nikki/luci-app-nikki ./ 
 
-find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
-find ./ | grep Makefile | grep mosdns | xargs rm -f
-
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 mosdns
-git clone https://github.com/sbwml/v2ray-geodata v2ray-geodata
