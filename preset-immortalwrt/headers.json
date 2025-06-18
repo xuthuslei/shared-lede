@@ -5,7 +5,7 @@
   "xiaomi-ax3600": ["2", "ipq807x", "generic", "xiaomi_ax3600"],
   "xiaomi-ax9000": ["2", "ipq807x", "generic", "xiaomi_ax9000"],
   "h3c-magic-nx30-pro": ["2", "mediatek", "filogic", "h3c_magic-nx30-pro"],
-  "qihoo-360t7": ["2", "mediatek", "filogic", "qihoo_360t7"],
+  "qihoo-360t7": ["3", "mediatek", "filogic", "qihoo_360t7"],
   "xiaomi-wr30u-112m-nmbm": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-112m-nmbm"],
   "xiaomi-wr30u-stock": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-stock"],
   "xiaomi-wr30u-ubootmod": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-ubootmod"],
