@@ -43,6 +43,7 @@ def switch_branch_or_tag(headers, model, text, variables, branch, ltag):
                 renews['CODE_BRANCH'] = branch
             else:
                 print(red(f"{branch} doesn't support this model,\nand the branch keeps default value"))
+                renews['CODE_BRANCH'] = branch
 
     if ltag:
         renews['SWITCH_LATEST_TAG'] = 'true'
