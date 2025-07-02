@@ -117,7 +117,7 @@ def modify_config_header(config, header, new_file=None):
 
 def check_device_support_single(url, define_str):
     import requests
-
+    print('url is ',url,';define_str is ',define_str)
     r = requests.get(url, timeout=3)
     if define_str in r.text:
         return True
