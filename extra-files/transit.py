@@ -56,6 +56,7 @@ def generate_temp_config(headers, model, temp, ori):
         raise FileNotFoundError(red(f'{file} not found'))
     if headers:
         header = generate_header(headers, model)
+        print(header)
         modify_config_header(file, header, tc1 := temp + '.config')
     else:
         if not check_header_existence(file):
@@ -124,6 +125,13 @@ def produce_temp_workfiles(
         num_ori = model
         headers = None
 
+    print(
+        'The device header:',
+        green(headers),
+        'The device model:',
+        green(model),
+        sep='\n'
+    )
     files['dot_config'] = os.path.join(
         cur_path, generate_temp_config(headers, model, temp, num_ori))
 
