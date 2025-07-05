@@ -7,7 +7,7 @@
   "h3c-magic-nx30-pro": ["2", "mediatek", "filogic", "h3c_magic-nx30-pro"],
   "qihoo-360t7": ["3", "mediatek", "filogic", "qihoo_360t7"],
   "qihoo-360t7-108m": ["3", "mediatek", "filogic", "qihoo_360t7_108m"],
-  "cudy-tr3000-512m": ["3", "mediatek", "filogic", "cudy_tr3000-v1-512m"],
+  "cudy-tr3000-512m": ["3", "mediatek", "filogic", "cudy_tr3000-256m-v1"],
   "xiaomi-wr30u-112m-nmbm": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-112m-nmbm"],
   "xiaomi-wr30u-stock": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-stock"],
   "xiaomi-wr30u-ubootmod": ["2", "mediatek", "filogic", "xiaomi_mi-router-wr30u-ubootmod"],
